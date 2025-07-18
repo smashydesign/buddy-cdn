@@ -1,7 +1,7 @@
 (function () {
   // JavaScript to be fired on all pages, after page specific JS is fired
   const iframe = document.getElementById('public-booking-iframe');
-  iframe.style.visibility = 'visible';
+  // iframe.style.visibility = 'visible';
 
   console.log('please work');
 
