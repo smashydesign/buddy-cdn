@@ -7,7 +7,7 @@
 
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
-    const paramValue = urlParams.get('testValue');
+    const paramValue = urlParams.get('token');
     console.log('paramValue', paramValue);
 
     if (paramValue && iframe) {
