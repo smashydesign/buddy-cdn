@@ -1,6 +1,5 @@
 (function () {
   document.addEventListener('DOMContentLoaded', function () {
-    // JavaScript to be fired on all pages, after page specific JS is fired
     const iframe = document.getElementById('public-booking-iframe');
 
     const queryString = window.location.search;
