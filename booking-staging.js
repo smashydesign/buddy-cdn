@@ -12,7 +12,7 @@
     }
 
     if (redirectParamValue && iframe) {
-      iframe.setAttribute('src', `https://staging-buddy-frontend-zeta.vercel.app/bookings/manage/summary/${paramValue}`);
+      iframe.setAttribute('src', `https://staging-buddy-frontend-zeta.vercel.app/bookings/manage/summary/${redirectParamValue}`);
     }
 
     window.addEventListener('message', function (event) {
