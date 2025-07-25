@@ -8,11 +8,11 @@
     const redirectParamValue = urlParams.get('redirectToken');
 
     if (paramValue && iframe) {
-      iframe.setAttribute('src', `https://https://app.buddy.rip/bookings/manage/authorisation/${paramValue}`);
+      iframe.setAttribute('src', `https://app.buddy.rip/bookings/manage/authorisation/${paramValue}`);
     }
 
     if (redirectParamValue && iframe) {
-      iframe.setAttribute('src', `https://https://app.buddy.rip/bookings/manage/summary/${redirectParamValue}`);
+      iframe.setAttribute('src', `https://app.buddy.rip/bookings/manage/summary/${redirectParamValue}`);
     }
 
     window.addEventListener('message', function (event) {
